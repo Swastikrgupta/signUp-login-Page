@@ -1,0 +1,157 @@
+body
+{
+  background: url('https://cdn.dribbble.com/users/1508016/screenshots/6423857/simple_mockup_free_scene_4x.jpg?compress=1&resize=1600x1200');
+  
+
+}
+
+#title
+{
+	background-image: linear-gradient(to bottom right, #008080, #006262);
+    color: #fff;
+}
+
+.navbar
+{
+    padding: 0;
+}
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item
+{
+    padding: 0 1.5rem;
+}
+
+.nav-link
+{
+    font-size: 1.1rem;
+    /* font-family: "Montserrat-Light" */
+    color: rgb(255, 255, 255);
+
+}
+
+#signup
+{
+    text-align: center;
+	padding: 0 5%;
+	margin: 3% 3%;
+}
+
+.form-container
+{
+	margin-left: 2%;
+	padding-left:2%;
+}
+
+
+.fa-android{
+	font-size:3rem;
+	color: #fff;
+}
+
+.main-content{
+	width: 70%;
+	border-radius: 20px;
+	box-shadow: 0 5px 5px rgba(0,0,0,.4);
+	margin-left: 13.5%;
+	margin-top: 10%;
+	margin-right: 19%;
+    /* display: flex; */
+}
+.company__info{
+	background-color: #008080;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	/* flex-direction: column; */
+	justify-content: center;
+	color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+	.main-content{width: 90%; margin-top: 12%; margin-left: 10%; margin-right: 7%;}
+	.company__info{
+		display: none;
+	}
+	.login_form{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+}
+/* @media screen and (min-width: 642px) and (max-width:800px){
+	.main-content{width: 70%; height: 50%; margin-top: 12%; margin-left: 7%; margin-right: 7%;}
+} */
+ h2{
+	color:#008080;
+}
+.login_form{
+	background-color: #fff;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+form{
+	padding: 0 2em;
+}
+.form__input{
+	width: 90%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	outline:none;
+	margin-bottom:2.5%;
+	margin-top: auto;
+	transition: all .5s ease;
+}
+.form__input:focus{
+	border-bottom-color: #008080;
+	box-shadow: 0 0 5px rgb(133, 119, 119); 
+	border-radius: 4px;
+}
+.btn{
+	transition: all .5s ease;
+	width: 130px;
+	border-radius: 30px;
+	margin-left: 15%;
+	margin-right: 15%;
+	color:#008080;
+	font-weight: 550;
+	background-color: #fff;
+	border: 1px solid #008080;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+
+}
+.btn:hover, .btn:focus{
+	background-color: #008080;
+	color:#fff;
+}
+
+
+
+.submit-align
+{
+	text-align: center;
+	margin-left: 37%;
+   margin-right: 37%;
+}
+
+@media (max-width: 1270px)
+{
+  .submit-align
+  {
+    margin: 5%;
+  }
+
+  .form-container
+  {
+	  /* margin-right: 9%; */
+	  margin-top: 2%;
+	  padding-right: 10%;
+  }
+}
